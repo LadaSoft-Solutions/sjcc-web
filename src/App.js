@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const sampleProps = "I'm a prop"
+
+    return (
+        <Router>
+            <div className="app">
+                <div className="container">
+                    {/* Call the Navbar component */}
+                    <Navbar />
+
+                    {/* App Body */}
+                    <h1>Hello! I'm the body</h1>
+                    {/* End App Body */}
+
+                    {/* Call the Footer component with props */}
+                    <Footer sampleProps={sampleProps} byName={"Markii"} />
+                </div>
+            </div>
+        </Router>
+    );
 }
 
-export default App;
+export default App
