@@ -1,7 +1,10 @@
 import './App.css'
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer/Footer'
+// import Footer from './components/Footer/Footer'
+
+// images
+import sjccbanner from './img/sjcc.jpg'
 
 function App() {
     const sampleProps = "I'm a prop"
@@ -9,17 +12,18 @@ function App() {
     return (
         <Router>
             <div className="app">
-                <div className="container">
-                    {/* Call the Navbar component */}
-                    <Navbar />
+                {/* Call the Navbar component */}
+                <Navbar />
 
-                    {/* App Body */}
-                    <h1>Hello! I'm the body</h1>
-                    {/* End App Body */}
+                {/* App Body */}
+                <section id="app-image">
+                    <div className="app-banner"></div>  
+                </section>
 
-                    {/* Call the Footer component with props */}
-                    <Footer sampleProps={sampleProps} byName={"Markii"} />
-                </div>
+                {/* End App Body */}
+
+                {/* Call the Footer component with props */}
+                {/* <Footer sampleProps={sampleProps} byName={"Markii"} /> */}
             </div>
         </Router>
     );
