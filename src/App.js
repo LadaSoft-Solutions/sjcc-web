@@ -1,28 +1,46 @@
-import './App.css'
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
-import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer/Footer'
+import React, { Component } from 'react';
+import { Route, Switch, BrowserRouter as Router, withRouter } from 'react-router-dom';
 
-function App() {
-    const sampleProps = "I'm a prop"
+import Loading from './pages/Layouts/loading';
+
+// Import css
+import './Apps.scss';
+
+// Import all components
+const homeAgency = React.lazy(() => import('./pages/home-agency'));
+const homeApp = React.lazy(() => import('./pages/home-app'));
+const homeBusiness = React.lazy(() => import('./pages/home-business'));
+const homeMultipurpose = React.lazy(() => import('./pages/home-multipurpose'));
+const homeSoftware = React.lazy(() => import('./pages/home-software'));
+const homeStartup = React.lazy(() => import('./pages/home-startup'));
+
+class App extends Component {
+
+  render() {
 
     return (
+      <React.Fragment>
         <Router>
-            <div className="app">
-                <div className="container">
-                    {/* Call the Navbar component */}
-                    <Navbar />
-
-                    {/* App Body */}
-                    <h1>Hello! I'm the body</h1>
-                    {/* End App Body */}
-
-                    {/* Call the Footer component with props */}
-                    <Footer sampleProps={sampleProps} byName={"Markii"} />
-                </div>
-            </div>
+          <React.Suspense fallback={<div><Loading /></div>}>
+            <Switch>
+              <Route path="/home-agency" component={homeAgency} />
+              <Route path="/home-app" component={homeApp} />
+              <Route path="/home-business" component={homeBusiness} />
+              <Route path="/home-multipurpose" component={homeMultipurpose} />
+              <Route path="/home-software" component={homeSoftware} />
+              <Route path="/home-startup" component={homeStartup} />
+              {/* <Route path="/" component={homeAgency} /> */}
+              <Route path="/" component={homeMultipurpose} />
+            </Switch>
+          </React.Suspense>
         </Router>
+      </React.Fragment>
     );
+  }
 }
 
-export default App
+
+
+export default withRouter(App);
+
+

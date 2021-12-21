@@ -1,0 +1,5 @@
+.app-banner {
+  height: 400px;
+  background: url("./img/sjcc.jpg") no-repeat center center;
+  background-size: cover;
+}
