@@ -108,7 +108,7 @@ class HeaderMulti extends Component {
                                             <a href="#about" className="nav-link">About</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a href="#features" className="nav-link">Anouncements</a>
+                                            <a href="#features" className="nav-link">Announcements</a>
                                         </li>
                                         <li className="nav-item">
                                             <a href="#services" className="nav-link">News</a>

@@ -10,11 +10,6 @@ import Footer from './Layouts/footer';
 import AboutUs from './SubPages/Multipurpose/about-us';
 import Features from './SubPages/Multipurpose/features';
 import Services from './SubPages/Multipurpose/services';
-import Cta from './SubPages/Multipurpose/cta';
-import Testimonial from './SubPages/Multipurpose/testimonial';
-import Team from './SubPages/Multipurpose/team';
-import Pricing from './SubPages/Multipurpose/pricing';
-import Client from './SubPages/Multipurpose/client';
 import Contact from './SubPages/Multipurpose/contact';
 
 
@@ -104,11 +99,6 @@ class homeBusiness extends Component {
                 <AboutUs />
                 <Features />
                 <Services />
-                <Cta />
-                <Testimonial />
-                <Team />
-                <Pricing />
-                <Client />
                 <Contact />
 
                 {/* Footer */}

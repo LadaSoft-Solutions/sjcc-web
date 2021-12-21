@@ -18,9 +18,9 @@ class Features extends Component {
                         <div className="row justify-content-center">
                             <div className="col-lg-7">
                                 <div className="title text-center mb-5">
-                                    <p className="text-uppercase text-muted mb-2 f-13 subtitle">Features</p>
-                                    <h3>Key features of the product</h3>
-                                    <p className="text-muted mt-3">Dantes remained confused and silent by this explanation of the thoughts which had unconsciously been working in his mind, or rather soul.</p>
+                                    <p className="text-uppercase text-muted mb-2 f-13 subtitle">Announcement</p>
+                                    <h3 className="text-uppercase">Courses Offered</h3>
+                                    {/* <p className="text-muted mt-3">Dantes remained confused and silent by this explanation of the thoughts which had unconsciously been working in his mind, or rather soul.</p> */}
                                 </div>
                             </div>
                         </div>
@@ -31,12 +31,15 @@ class Features extends Component {
                                         <i className="mdi mdi-chart-bar h4 text-custom"></i>
                                     </div>
                                     <div>
-                                        <h5 className="mb-3">Creative Design</h5>
-                                        <p className="text-muted">Dantes remained confused and silent by this explanation of the thoughts which had unconsciously been working in his mind, or rather soul.</p>
+                                        <h5 className="mb-3">SENIOR HIGH SCHOOL</h5>
+                                        <p className="text-muted"><b>Academic Track</b></p>
                                         <div>
-                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i>Sed ut perspiciatis unde omnis iste natus</p>
-                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i>Proceed from the head and those from the heart</p>
-                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i>Unconsciously been working in his mind</p>
+                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i> - ABM Strand (Accounting and Business Management)</p>
+                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i> - HUMSS Strand (Humanities and Social Sciences)</p>
+                                        </div>
+                                        <p className="text-muted"><b>TVL Track</b></p>
+                                        <div>
+                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i> - CSS Strand (Computer System Servicing)</p>
                                         </div>
                                     </div>
                                 </div>
@@ -59,12 +62,14 @@ class Features extends Component {
                                         <i className="mdi mdi-apple-keyboard-command h4 text-custom"></i>
                                     </div>
                                     <div>
-                                        <h5 className="mb-3">Easy to customize</h5>
-                                        <p className="text-muted">Dantes remained confused and silent by this explanation of the thoughts which had unconsciously been working in his mind, or rather soul.</p>
+                                        <h5 className="mb-3">COLLEGE OF ARTS AND SCIENCES</h5>
+                                        <p className="text-muted">Bachelor of Science in Business Administration</p>
                                         <div>
-                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i>Sed ut perspiciatis unde omnis iste natus</p>
-                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i>Proceed from the head and those from the heart</p>
-                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i>Unconsciously been working in his mind</p>
+                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i> - Major in Business Economics</p>
+                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i> - Major in Human Resource Development Management</p>
+                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i> - Major in Operation Management</p>
+                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i> - Major in Marketing Management</p>
+                                            <p className="text-muted"><i className="mdi mdi-checkbox-marked-outline h5 text-custom mr-2"></i> - Major in Marketing Management</p>
                                         </div>
                                     </div>
                                 </div>
