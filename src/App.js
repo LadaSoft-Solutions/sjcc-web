@@ -18,7 +18,7 @@ class App extends Component {
         <Router>
           <React.Suspense fallback={<div><Loading /></div>}>
             <Switch>
-              <Route path="/" component={homeMultipurpose} />
+              <Route exact path="/" component={homeMultipurpose} />
             </Switch>
           </React.Suspense>
         </Router>
