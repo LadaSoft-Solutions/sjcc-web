@@ -2,7 +2,7 @@
   "name": "sjcc-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ladasoft-solutions.github.io/sjcc-web/",
+  "homepage": "https://ladasoft-solutions.github.io/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^3.2.3",
