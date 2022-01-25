@@ -8,6 +8,7 @@
   --secondary-white: #fffefe;
   --secondary-yellow: #f9d063;
   --secondary-orange: #f29451;
+  --secondary-gray: #e6eef2;
   --text-color: #3a3a3a;
 }
 
@@ -911,6 +912,38 @@ body {
 }
 
 /* Custom CSS */
+.text-color-1 {
+  color: var(--text-color);
+}
+
+.text-color-2 {
+  color: var(--primary-light-green);
+}
+
+.text-color-3 {
+  color: var(--secondary-blue);
+}
+
+.text-color-4 {
+  color: var(--secondary-yellow);
+}
+
+.text-color-5 {
+  color: var(--secondary-orange);
+}
+
+.text-color-6 {
+  color: var(--secondary-gray);
+}
+
+.link-color-1 {
+  color: var(--primary-green);
+}
+
+.link-color-1:hover {
+  color: var(--secondary-orange);
+}
+
 .cursor-pointer {
   cursor: pointer;
 }

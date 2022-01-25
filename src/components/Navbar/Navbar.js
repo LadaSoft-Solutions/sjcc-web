@@ -10,10 +10,10 @@ function Navbar() {
             <div class="d-flex align-items-center justify-content-evenly w-100">
                 {/* <div className="d-none d-md-block"> */}
                     <ul class="nav justify-content-center mb-0">
-                        <li><a href="#" className="text-color-2 link-hover-1 nav-link">UPDATES</a></li>
-                        <li><a href="#" className="text-color-2 link-hover-1 nav-link">ALUMNI</a></li>
-                        <li><a href="#" className="text-color-2 link-hover-1 nav-link">GALLERY</a></li>
-                        <li><a href="#" className="text-color-2 link-hover-1 nav-link">CAREER</a></li>
+                        <li><a href="#" className="font-semibold link-color-1 nav-link">UPDATES</a></li>
+                        <li><a href="#" className="font-semibold link-color-1 nav-link">ALUMNI</a></li>
+                        <li><a href="#" className="font-semibold link-color-1 nav-link">GALLERY</a></li>
+                        <li><a href="#" className="font-semibold link-color-1 nav-link">CAREER</a></li>
                     </ul>
                 {/* </div> */}
                 <div class="d-flex align-items-center">
@@ -22,14 +22,14 @@ function Navbar() {
                     </Link>
                     <p className="mb-0">San Jose Community College</p>
                 </div>
-                <div className="d-none d-md-block">
+                {/* <div className="d-none d-md-block"> */}
                     <ul class="nav justify-content-center mb-0">
-                        <li><a href="#" className="text-color-2 link-hover-1 nav-link">ABOUT SJCC</a></li>
-                        <li><a href="#" className="text-color-2 link-hover-1 nav-link">ADMISSION</a></li>
-                        <li><a href="#" className="text-color-2 link-hover-1 nav-link">RESOURCES</a></li>
-                        <li><a href="#" className="text-color-2 link-hover-1 nav-link">CONTACT US</a></li>
+                        <li><a href="#" className="font-semibold link-color-1 nav-link">ABOUT SJCC</a></li>
+                        <li><a href="#" className="font-semibold link-color-1 nav-link">ADMISSION</a></li>
+                        <li><a href="#" className="font-semibold link-color-1 nav-link">RESOURCES</a></li>
+                        <li><a href="#" className="font-semibold link-color-1 nav-link">CONTACT US</a></li>
                     </ul>
-                </div>
+                {/* </div> */}
             </div>
         </nav>
     )
