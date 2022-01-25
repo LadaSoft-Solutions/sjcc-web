@@ -1,4 +1,4 @@
-@import url(./fonts/fonts.css);
+/* @import url(./fonts.css); */
 
 :root {
   --color-1: #33ab5f;
@@ -962,53 +962,6 @@ body {
 }
 
 /* Fonts */
-.sspro-el {
-  font-family: "SSPro EL";
-}
-
-.ss-pro-eli {
-  font-family: "SSPro ELI";
-}
-
-.sspro-light {
-  font-family: "SSPro Light";
-}
-
-.sspro-li {
-  font-family: "SSPro LI";
-}
-
-.sspro {
-  font-family: "SSPro";
-}
-
-.sspro-italic {
-  font-family: "SSPro Italic";
-}
-
-.sspro-semibold {
-  font-family: "SSPro SB";
-}
-
-.sspro-sbi {
-  font-family: "SSPro SBI";
-}
-
-.sspro-bold {
-  font-family: "SSPro Bold";
-}
-
-.sspro-bi {
-  font-family: "SSPro BI";
-}
-
-.sspro-black {
-  font-family: "SSPro Black";
-}
-
-.sspro-bli {
-  font-family: "SSPro BlI";
-}
 
 /* Custom CSS */
 .text-color-1 {
